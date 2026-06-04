@@ -1,12 +1,16 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class ParticleStamp : StampArea
 {
-    public ParticleSystem particle;
+    public List<ParticleSystem> particles;
     public GameObject stampArea;
     public override void OnEnter()
     {
-        particle.Play();
+        foreach (var particle in particles)
+        { 
+            particle.Play();
+        }
         stampArea.SetActive(false);
         
         
