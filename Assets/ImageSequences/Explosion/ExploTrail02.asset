@@ -1,0 +1,414 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: ExploTrail02
+  m_EditorClassIdentifier: 
+  inputFrameGUIDs:
+  - df7edd23807d11643a5c04eca37fdebd
+  - a80691edb0bf8e946a5cb75841bf6754
+  - faee84fd8e73073489d3fe06138df51e
+  - 1fbc7bc0a3dc96e48b7d0b81252ee477
+  - f3eb6b47d191e3241b385ba0bc2c1f72
+  - 468cdefd6e341ce4bbe4bd1291b9be64
+  - f411ecdbc72045a47bdca1899a1307c8
+  - 7b08944aa3bb3e44c8a6d634fc5e6042
+  - 532dbdadffd10604095f8fc3d68c029e
+  - 31d00308d10cfcf4caf72203509f6ffa
+  - 8358f068aabcf0040b76aad349cecaf4
+  - c5d31c68ef0ea8441963493033184afb
+  - fbec72e694e160043a599a4e5e003046
+  - cec644685a03a9c4dbb09e6293c42a2f
+  - 1275f4918d3323e4c9c5771355b62847
+  - 7d17be321e5d645489b66aaf2263e83b
+  - 0bc0d9b59d1f5f14d9d72a34188f21e6
+  - 991dca81fc6b82a45a52b5f89a2f5592
+  - c587bcfa4e0bcee4a81edf3882d7dd78
+  - 7a3591873959d244099f28cbc3837a31
+  - 1dfce4d0bc059c442af4472215562fb7
+  - 97d38d5b3e90bc64dbdaaa418a884ea6
+  - 2daa33311b752054f8fad6973236c672
+  - 73abda26ba567d14597e6bcb606ecdd7
+  - 5d00fb9fddab80240a9ddebb9e1131ea
+  - 1c1f619f1840fa34b8e392f2870a82a0
+  - 91a231ec01016794eaed7ab1cdd41a1f
+  - 018aa6a549c89cb43a16285921e65355
+  - 06aaa32868de2114fa0f03a75bd087c9
+  - 9bd6ee6e0439ba54296f352822cc2daa
+  - b41da1efccfd86a4fb1a3bc04eae5425
+  - e4f26d8d49fd64b44a00f33359000b97
+  - 0ddb7b43cb892ef4c966a51d27d0dca8
+  - 87ee8ca6130baee48a9c25df64bc6b85
+  - aeb88fde7ca68af4bb450655249969b9
+  - fc33df7db3a73d34494f8e1f57ea9f2f
+  - 1b42632edce8b9d44858c8eb93613977
+  - 043cbfd17c3ce604fa928e45a33b41a4
+  - 6c6d859f44702764c8c3e6c191db4af4
+  - bb91e39de13abdd4d85292d967d57e70
+  - e79a385f2e918314cb39a8531bb11dff
+  - 82a72315363e65b499c0650ebe43bf83
+  - aa0f5f5aa728a734b98b52eb02d5972f
+  - b91b744ed2b0b9f4ba7128c9fb5ba9cf
+  - b2c2eaca287151c4785fee7845ef0f7c
+  - 03bc6500442feed4ba3a0665cf035282
+  - bf0c72d08e17e8d4f84976172e640314
+  - bc36ada65dbfc7a41a56c7023a318da5
+  - 289d153c1bc181c4cbc02541c302d25f
+  - 9a3dec5af5ad538478c7f4eedd84f53e
+  - f9a1bd1371dff034abca2f53e9764d05
+  - 2895e5371d1620d43a0ca7a7961f505a
+  - e76a9f4250752934e838b080c018f696
+  - 064fc9a995da9174d81156fcce200073
+  - 3b5671e9bf4b10648ba26f3aa8567f38
+  - 35a841cc947c1c9439360f5f780497a9
+  - f213404e716f71c4fa4609a8621427a1
+  - 094e2db5586724141a78cdf2da9c5043
+  - 37f5bf6c9d7939e45b17a2339fd75473
+  - caa6d44ef86aa084384fdfc43d7fae69
+  - d8461b675c3476c43a2f95734da8ac88
+  - 49422f06ecc24c14495efc467a696ed1
+  - 20f717291d6b9954ea57a987e53a8163
+  - f5f65fcd8ab75c64b885a7f94df4ae34
+  - 8da4c799c9a12b6469d7a0aeb41d8851
+  - 9622b038c0149c84094b6b4e4b0b8a3d
+  - 35ff74761d48b78498e13a3b8fc92d83
+  - e76fd533f5b27b347b5cb02025b29770
+  - 5c1987eaf6ea93e4a8f32f639568c134
+  - 3ac5277bd39ac4e409f34ed3d6d43be5
+  - 5a2866272323c24418915de6de32cad9
+  - 5c3fb50c55090204a873e7bcbd02d682
+  - 25ff5e1d3c36efb46bc7b03e3f1d1924
+  - 300a1cb2735ecf14a99ef2a49e0f3a19
+  - 8081f9aa13d5f0242b7e85c174257a05
+  - 317701408f0588f46b1c7b9c5a443205
+  - cd8e7cf38c4221a42acced8d716a2e6f
+  - 64c1a06c60a301b449714ef543b588f7
+  - 3b2d2f819b66d874ab4e0ebc9747970b
+  - 5db819651542f554d9432b94e1896118
+  - 1b8fe7b492958a1409d8a77e76ad5c5f
+  - 95a17e7f3ba6938458e520306431faa4
+  - b07dca02bdba01048ae04c223243153f
+  - 7b4804e4f84745b4483dd2fa1e2d410b
+  - cc3dd32799c3c4e4f9e31920b1add2cf
+  - eab025c08863e2640b54266c122ff4dd
+  - c7ae66a6fcbd83946bd55d453f5ea48b
+  - 0830ffa51fbd3d54a8e99539ff8b93ba
+  - 0d0e092ad618c164d8112fc5bb43bd30
+  - b0284c1e75f7e2e409070f94641563f8
+  - 2f8572a34e0be454aa7870d0f0656ed8
+  - 3af2b6da64f4d5340baefb212974f39c
+  - bc204d07d5c6d444485f20d40f2cd729
+  - 4c0664361616c984483d81e978dd7055
+  - 5625762b0b15b3f47b91506fc92096ae
+  - 4c7d01ab0f3a7e845b80e90f8820b3ce
+  - 60ebfded36b0534409d3ccf35b0893a5
+  - 864073f12a7a1e447a75dc198d3b11bd
+  - b288b32fb3706f846b0b50399eda7f95
+  - dba7f1b4af6c76b4dae76602dc3251dd
+  - 0e8174585a5e9c841863c42ad2a71d3e
+  - 3a34ebc5a0b093f4f9346c21e9e23072
+  - 8ed93a58e7befa44384d738f13a79a9f
+  - 26513bdd920c9d34e87649e51adf262c
+  - 8603ee19e4e513a41a4f5e7b23980b27
+  - c9d691e86561f1c4b8bfeed450f11f47
+  - a063cc5a93bd8694692d3d7d54d65a8a
+  - ef80b205eac2dca40b2071e7f8b3b463
+  - 6916053575409a640ae549cc5cd84340
+  - cc48b6d6a96e4c04caf9556592b50e92
+  - 04b3effa9da66b44fb716f8a8d16a5a5
+  - 5adfca7d2aaa7564d89b2e21bbc3cb06
+  - 80f8447d9e3cb0d4aa290469afc5aa30
+  - 8ae6710a90918d549b36e4ae4aae89f4
+  - ff178ea5e8c9ad24f8cd03b097fa7957
+  - 54ed5098cc1d584448c056e4a15078fb
+  - d19199c547cab88448b2f71008e42884
+  - 04b8a587e4538614198d63657ff77f78
+  - dc72a00f103b02e4aab94b235cf335fb
+  - 4e1a965ff74c88242b0bcf812db010fc
+  processorInfos:
+  - {fileID: 114053248935983288}
+  - {fileID: 114350873378392362}
+  - {fileID: 114531372823775906}
+  - {fileID: 114340608333684030}
+  - {fileID: 114057397166771582}
+  - {fileID: 114198298817783754}
+  exportSettings:
+    fileName: Assets/Flipbooks/ExploTrail02_8x5.exr
+    frameCount: 1
+    exportMode: 1
+    exportAlpha: 0
+    exportSeparateAlpha: 1
+    sRGB: 0
+    highDynamicRange: 1
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 5
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &114053248935983288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Remove Background
+  Enabled: 1
+  Settings: {fileID: 114798207057740518}
+--- !u!114 &114057397166771582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Assemble Flipbook
+  Enabled: 1
+  Settings: {fileID: 114380049390990050}
+--- !u!114 &114158552212892852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524ca2e5a7796534ab1f8dc4bd20c436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FixFactors: {x: 0, y: 0, z: 0.13, w: 0}
+  FadeToColor: {r: 0, g: 0, b: 0, a: 0}
+  FadeToAlpha: 0
+  Exponent: 1.5
+--- !u!114 &114198298817783754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Resize
+  Enabled: 1
+  Settings: {fileID: 114208682221156228}
+--- !u!114 &114208682221156228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba984ba4af4e5884b8c8e887abee8051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Width: 512
+  Height: 1024
+--- !u!114 &114256918872570770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd658e7a2564734aaef1a1eddf45e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Crop_Top: 33
+  Crop_Bottom: 0
+  Crop_Left: 14
+  Crop_Right: 8
+  AutoCropThreshold: 0.003
+--- !u!114 &114340608333684030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Retime
+  Enabled: 1
+  Settings: {fileID: 114908748701957444}
+--- !u!114 &114350873378392362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Crop
+  Enabled: 1
+  Settings: {fileID: 114256918872570770}
+--- !u!114 &114380049390990050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 8
+  FlipbookNumV: 5
+  Mode: 0
+--- !u!114 &114498705827444342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cecbc83322782040aa2e239d6bb99be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FadeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.8194444
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -9.454552
+      outSlope: -9.454552
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  FadeToColor: {r: 0.25, g: 0.25, b: 0.25, a: 0}
+--- !u!114 &114531372823775906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Fix Borders
+  Enabled: 1
+  Settings: {fileID: 114158552212892852}
+--- !u!114 &114702150273513262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Fade
+  Enabled: 0
+  Settings: {fileID: 114498705827444342}
+--- !u!114 &114798207057740518
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba009c82a545a464986d0e411726f3a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BackgroundColor: {r: 0.50191754, g: 0.50191754, b: 0.50191754, a: 0}
+--- !u!114 &114908748701957444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67121233fc1872a4e9b4d2c8f5fc6542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 5.5092597
+      inSlope: 92.878044
+      outSlope: 92.878044
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 55.092594
+      inSlope: 18.666677
+      outSlope: 18.666677
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  outputSequenceLength: 40
+  useCurve: 1

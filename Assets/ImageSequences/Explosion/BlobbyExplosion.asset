@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: BlobbyExplosion
+  m_EditorClassIdentifier: 
+  inputFrameGUIDs:
+  - a5ea7528cfa7f2a4a972f53a2013ffd3
+  - 466bec54ac47d5d4b8a829e5b24575f4
+  - ac1b7b81e29ce8e4880dab3d5f456a5e
+  - 394794ef346f5e74080e86f00ee468dc
+  - 886491679f6aa9647b3b30abba8d1a67
+  - 5ab77e6fb0d2e9a47a24e17d68a85ac2
+  - f94fbdb79a9ad7c4b85af3e69638683d
+  - 8a6ab335ed8eedf4ab1053793ff69094
+  - 9e18154bb6c25f641bdd6b8b26fe60f6
+  - 59abbf90d6d495a478cb654a4eaac619
+  - 09977a6755e378d4ca57b3dd32280345
+  - d62a51782a932eb4bbf5d40562adb7d3
+  - 411124511721bd64ab4f5b6c69e06055
+  - ac417335d201268469a038401e8e46cd
+  - f6d321c7fd49f9e4a85997fdb2caf193
+  - 7d2caf9372fb4c24f97b6a6dc0aa39e7
+  - 7dc51bf407b11f44baad5ccebf3c58c8
+  - 4ef43f04798479f4eae22abcd72050ff
+  - 1d1a17d3a4c163e45b9a3c77ed23ffea
+  - 543ee2bd4ed819e418e9e787292a77aa
+  - a217c2739d1cb8743a2a115904bf4fd5
+  - 368d9c2acf84e554bb8e8b197de676cd
+  - 7138b802dc05d2745a853bcb5b61bbc9
+  - 619ea89ce760e984cadf779d91e5f7c8
+  - 45283a1e09a5c034cb63bfb288ac36d0
+  - faee68cf20a3d6f49bda27b62de753e5
+  - 964eeca7fc2926f4cb7e91481be10cfc
+  - aad785f7a41b7a74181eb70310ba6226
+  - c720e461b3c885d4c82312f98e4512ea
+  - f2e3056af0fbd8148b60fc89a8538f13
+  - ae3ab9fd461f8d04b8cb00d50d8ee887
+  - 5ef3a1d3d70b29543aa8938f0cecc187
+  - 541b8e0dbd0e5ed40b691680c7e2014e
+  - ef85082b35fc9004cbd38a03411fd3d4
+  - d95033dc410174842895ca2838640310
+  - f94fdb6972a3afe49a220c2e95bc835b
+  - 7d26add31ceca974493cd29ca7308920
+  - 446d007f7b24b8a46bcad4761872ee71
+  - 6fe3a70689b9c364299e0e40c24b3622
+  - bb96a8e9b1f303d49a7ec415cf2f54e6
+  - 67ee396506a46894c92ac379239a0667
+  - 1f469e38899533a45bdf896a14c98a97
+  - e427c4f16d11d5248b0b38769b01fd7d
+  - d7d30eb82bb362e488f2e58d7f65b9c5
+  - 5214e11e800c49c4fade3f3847169fd6
+  - eb3cc1412ae0a214ea2c71c9a8bf18fd
+  - a78492e87c556324da2c90ae2aea85db
+  - 3ea1a5234c11b6247ae52939ec50a224
+  - 5d800ed00df873c42a525beb3a15e1fb
+  - c21874025e8348945ba052f4f6f4e5c1
+  - 0a195c8bb85681d459f4f881b4425090
+  - 39ccc46f5a47fd348badeaab0768fc02
+  - 974b0e1542bb40848951274ae798c86e
+  - 16ffbb5571bd50a48be43b22dc0f89d9
+  - dc2ec985fcb12af4f98271528f82ebec
+  - 1bfea9dffd4e9624d8d414733bd388c0
+  - 6f6bea5c0b7daea428ca9d98d81b0eef
+  - e0f417f9456036d4f90afb44acd1b068
+  - bd3143eb7fe22ee46a43f1f507159a37
+  - 8f71b92635036b34cbd200bee8fa3e40
+  - 0002357dbcf1ef54fba9c6210af851b6
+  - 15369f4227b84b74fb1902df3c9dfbc6
+  - a285eee6e7c378c4ba99efcb981fe39b
+  - 7fa421fb6462c6f478caa9fc91625862
+  - b8cb0bed301958a41aff14b20b7dd9d4
+  - ff036e890a394054cb6614316578f285
+  - 154943345b5891544b55748f7dc1c335
+  - 34344d50ec56da541a8c547791172508
+  - c499afcdee0115c47a4b08622232436a
+  - 343a1420a2a5e184bb372a0a3b6c7134
+  - 3fdb702de48c4134e90ca5380ed12c72
+  - 1dd39dacb50a8934db3d546228ca2231
+  - a8ad611b61f23024cb6d94ecda7be40b
+  - 71821abd072ecf240b8a0a750b437ac3
+  - 0af7dcc0ba5d1054998f4a4e39565829
+  - 5f7b529f38da46e438c37f8f456f0773
+  - b06e42df59db56b45b92917d06f074ca
+  - aa331d11727f234419b2c89f944d6833
+  - 9105cbaaaaacde646b282299c75649f7
+  - e0669783975a1cc4ab99230d66609448
+  - 16402e6127efd30408bee01960c15993
+  - e42d2bbb774838942bd191b44604eda6
+  - 11d33f3861cec9a48ad3611f724f5aea
+  - 70b6e7cdfeb83804da1aaf6b77ea9201
+  - f60565d3e3a523349bcf9bc7ea7efbcc
+  - 5041f624c1a57094dbb8e3726752f0ec
+  - 129b5645085da474689c24f9cc0d28e5
+  - 31db2ebc23a82844ba41972fe5b59100
+  - 0587553b832184d47851c101b54db660
+  - fc7ca6281bfbdf4409b78d342f0beca3
+  - 6585cc7ac7e795e478998bda468bbf95
+  - 684511ba4e04b964593ff2d68350db84
+  - 5b0f9e2adff39a54084cfaefd7ef02e8
+  - 49c6ea8186160ff4990b22575957838c
+  - 9ac0c9ae3d41bfb4bae41377a8681959
+  - 6fd9d23e265ef8d4b8046e57bb20063b
+  - 2405f8b196f18b54cb5dcd0ad81e4fdf
+  - 7eae9c8bca3168c45afc9799af44e3f5
+  - 5e5f446137812524b80972ff93c37254
+  - a115d5dbb56670c498ee5522b0cda221
+  - 28ad75f8412e875428f9b2a4da8a408f
+  - 53be287deaf4390468105173de241300
+  - cf066387b039d1d46836726e333cfa26
+  - c0c31dd62ca98ee4893ff1f182ff2692
+  - d10ab651e08e6794b81beeed129cfe9c
+  - 619cf8d4d7cf5b542a7640b25cf25a47
+  - f907d59321766494792aa785309ce0b2
+  - 8828100837719184da220a81775b18cd
+  - a487419f74c39254592dcd5159e214cc
+  - befa2e56ba6f56f4ab548e4983f1c4c8
+  - c6ad591c86e87494fb10b22db51b2550
+  - 6a2e87bfb396dbb4aa3f0663b4084cb7
+  - 162fb52baa0ffcb449c8709224696319
+  - af47ce028d65a1f47b92866edb4d4068
+  - d2f3d8d01b9d89f4c940f5e7c1e07bb3
+  - 3a980aa216a8a2442a95ecf282d72d7a
+  - cfb4b56782b7e864880e145b81179ec8
+  - 50060f76ce0e08d459047ac85ac874fa
+  - bd57c066e3ce1f348b4b5a3f69e46f38
+  - e7b702b324049ec4ba9e05e889b3a871
+  - 24910fda62945684b982f6f3c8e42da3
+  - 32c5342411ab4054b95c4be94a46329d
+  - ed9b938c55b0ac44d964cfeeb94bbeb6
+  - 3d9ec4d8b8b813d4d8a0c89feaa7a675
+  - c276f5f1321e86a40b1dfca14e498bd6
+  - 6f711241d78806943a21927ae6baaeb0
+  - df59cfc40f6620c4fb97c8a078fbd7e0
+  - db42d7e7b3734714dae30e2d84dc1859
+  - a6c615d875be2174f861fa1180520966
+  - 01a9cc7381470ad459d072624336de66
+  processorInfos:
+  - {fileID: 114612707011311566}
+  - {fileID: 114002347890247294}
+  - {fileID: 114480838604464718}
+  - {fileID: 114883857793482160}
+  - {fileID: 114167680643857890}
+  exportSettings:
+    fileName: Assets/Flipbooks/BlobbyExplosion_6x6.exr
+    frameCount: 1
+    exportMode: 1
+    exportAlpha: 0
+    exportSeparateAlpha: 0
+    sRGB: 0
+    highDynamicRange: 1
+    compress: 0
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 4
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &114002347890247294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Crop
+  Enabled: 1
+  Settings: {fileID: 114656777895991960}
+--- !u!114 &114167680643857890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Resize
+  Enabled: 1
+  Settings: {fileID: 114814561022263464}
+--- !u!114 &114306433178254304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 6
+  FlipbookNumV: 6
+  Mode: 0
+--- !u!114 &114383713965121748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af546431c1df1e4cbb10dcd3b8c8e73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5173611
+      value: 1
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  syncFrame: 75
+  outputSequenceLength: 36
+--- !u!114 &114480838604464718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Fix Borders
+  Enabled: 1
+  Settings: {fileID: 114733334129819454}
+--- !u!114 &114612707011311566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Looping
+  Enabled: 1
+  Settings: {fileID: 114383713965121748}
+--- !u!114 &114656777895991960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd658e7a2564734aaef1a1eddf45e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Crop_Top: 32
+  Crop_Bottom: 32
+  Crop_Left: 32
+  Crop_Right: 32
+  AutoCropThreshold: 0.003
+--- !u!114 &114733334129819454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524ca2e5a7796534ab1f8dc4bd20c436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FixFactors: {x: 0.073, y: 0.049, z: 0.033, w: 0.041}
+  FadeToColor: {r: 0, g: 0, b: 0, a: 0}
+  FadeToAlpha: 0
+  Exponent: 1.5
+--- !u!114 &114814561022263464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba984ba4af4e5884b8c8e887abee8051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Width: 1024
+  Height: 1024
+--- !u!114 &114883857793482160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Assemble Flipbook
+  Enabled: 1
+  Settings: {fileID: 114306433178254304}

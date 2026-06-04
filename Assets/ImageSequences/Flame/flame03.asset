@@ -1,0 +1,1000 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: flame03
+  m_EditorClassIdentifier: 
+  inputFrameGUIDs:
+  - 076904c69a31a3642bd2b3a36bc51d1e
+  - abdfee14383c141419202b111f2a27fa
+  - d476b088f3d69724db8b9d5d7d5bfdd6
+  - 304b60ed1704d5b40ab2f35e5c3dd23e
+  - 505fdd21031efd94ea3aa2a85ce4d3d7
+  - dda0ac1f7a144e14fb8238a432bac2bf
+  - 0fd97853665b5224c92d0fd1a742b389
+  - c402c7b317028d846b86fbe669488bad
+  - 8c7fccfff018026448bbea1ad3aa459c
+  - 38d947689e3c30e4fb76c1a2e47932df
+  - 0d3c8e7e702a9d24d80f067625cf3c19
+  - af230a24814d3504780880c3c9e2d0a5
+  - 06e06a2c6f5201548a1dcf9eb8091320
+  - 8f94bbb058af89b43b80a25ec2c35619
+  - 6cc3af7fe19e70b44a742a15dc3a4631
+  - 3d10daf11169bee45a50d4c013258c17
+  - 273b01e09bb94c64bb1e21653d942fb7
+  - e66be18eb52977240b13603e38fa1d2e
+  - ccbf0fa720dd5b84fba0c203ff03e964
+  - 36a108a4ad7352b4bbfa98e0d6171263
+  - cbca58ec0e72a8d47a52beeb5a86e4b2
+  - 48db0fc63d0ad8946a9343be79c25dfd
+  - 34668fc89a1744d47a1cc6891996f233
+  - 5326524a673e2de4bb5f2a4dcd934f78
+  - 3884f162c42c5dc4b9db53dd85037dee
+  - fb8203025a270d24e9e98a5a34515cd1
+  - 3673f6482ac7c924ab068922b0eb8254
+  - a9439a580477bd0459157cde297a3de8
+  - 50bb22e6fc73f404d95ba24e11095ba0
+  - c35fd0f775ca43446a5801ca2829210f
+  - f53b5ae376fdd814b8dadb86063f9efc
+  - cd2470c3c12f9f04bbf1d148c41785f9
+  - a3aae08e1703c5d45a09e7d2c748dd17
+  - 8fff9debab7693849b1c29e0c98c5d4f
+  - e972fada26cfa9e4c80fffb46737af4c
+  - 03c01d872f7ae6c4bba4c6ff70c5def1
+  - 8b6a331a68cf86b4a928c9f8e1f24526
+  - 464c09db728cead4e8866b0fe8537a82
+  - 8b6916118df12224191c01dc2128a26f
+  - f9b12332a43226d499802faa963c3b10
+  - d270e22abd3e290459991d26df7e690f
+  - 86c7cf54286eb1d459f7ea2096e0052a
+  - 0b96a861613df6e4890b1765e53c6f6e
+  - 43f2ddac33a2d9d449af5516a1b23d47
+  - e733ff39c8f862a4ca4bdd2771e36f66
+  - c590c3f1f535bdb4880b43f100e37f55
+  - d36b32748d650ab4b8e37e6f4a3017cd
+  - 47e5372c01a8a9542a21aa610e7e7fdd
+  - 673671d278a64884780030c224ac1cfb
+  - b83935d1058199344b84be2ace56715f
+  - 283afe852b23fd244ad18a78f4b58d52
+  - c11bf42b5d0b8744b8f4b05756719877
+  - 4892578463ec26f4d8a0edf722cbadfe
+  - 56fad29c8d461d949813922b11fa56f5
+  - fc3f7d1cb13a5814ab8dda42c8e3147b
+  - dfa2acf8c6ef47347b67037c7a8b4998
+  - 658032f4a71803a48b94d2b1c432bfea
+  - cc29ff65ae837964ea8ab4d172f75f3f
+  - a83dcbac01164d3498968b74375cfebb
+  - a809d5c2926f94840a1ce478a8fd0860
+  - e41ba810db707fd499e6afaed514dd3f
+  - 563d6f23a4ff4cb42968eab927fc1013
+  - 96ffc55df009edf419f85a819ea0a73d
+  - 7a6a230c2162f004cbe6bd1a7939ba04
+  - a22b8c98a3390f54ca932c42f9ba153a
+  - 85f9098bb1615254cb2488c62fceecda
+  - 82fec10545606d7428c2a686c33024e9
+  - b55b79a7a56fccc41ac8e2ea0a53e867
+  - c1e32cb9e6457dd45a66886a9bba3659
+  - 24064fcb53132174e9273891f5edbd31
+  - d0c47a55acffe6d46a7ba3b034011116
+  - a1d264719bc20c64e9e32d5bc710ab2c
+  - 2f56203de0f9db34da26c07dab955e83
+  - afcaac06ff9c7e240807fe45ae463060
+  - b0ee6ac7d2910d64e8c91bfad46ab2b1
+  - 6b1baad4f0e4de741a23c4c9272c210f
+  - e66405ebe43ae734aafdc3fa19c00e43
+  - 648fc63094b07604aaddccb45ee6c322
+  - 69d7361129ef0424195ce2b134e575bc
+  - 8eb2ce213a19b5840acfc1647050f722
+  - 3400ccba569e781438d77f1777596fff
+  - ec3f1d9d7a28ec44a92c399140c596db
+  - 2c356d55f06cdf142a162443356d698d
+  - 8b8abf5734c79df4292c1e3bed5a4a5c
+  - d8e0cf9549b56054696135b44965d0ff
+  - 6da6e47ae87917b4c96244f50a08bd8c
+  - 7da9f0850eb82e64ea188f9a0120692a
+  - ebbcbdc6003836647bb49f17a35be262
+  - aee31252e71c8ce4980771ab6b3c5476
+  - 42e085a046e934148a01cd8aa2f916fc
+  - b257227d2f7f133409c6ee64d5a715b2
+  - 3c01f04dd9fa9f14bac0e6df5ed492a6
+  - 0db5fa73b2d829f4cb3e14d6b43511b9
+  - a803477c4e3f25b439736a32f5716b9f
+  - e24269b289b2f5740a61061bc4f79870
+  - d7fbe675201b24b48b2364df2bcc6cb6
+  - 073452a63302e374bae36078dde6fc86
+  - 69ff139a744a97642b4541e664f98efb
+  - fbfe6c2dbec55f64e9248f35f39b015b
+  - 0303f24d0470d714d83c58802327751e
+  - fe35e9dbd12dec841bae3ec108454155
+  - 066fa8f196ec1f84ead5ab53ebe605c5
+  - 5d0df215234c68940998d40e6778667e
+  - 6496937368b9bb84087825b5e1cb47b1
+  - d57b9277f95003d47b2d97528e52e64b
+  - 11a9e3d6c63bdc2479fda544b02910e6
+  - 10cd4ab8e527c1048b2b18866058684b
+  - 5cc8170c0be71c843baabea33d694847
+  - baa6969c9f5594b4fad1163e3dc37b9e
+  - b9bb63bbcc0e9474abe56eb747766c5f
+  - 17c8a6ca5cd05d64c9ac18ad0734a398
+  - 91b343ab4a1be1a49a34cc0dc3283b12
+  - 0ff827c5cc3693141a37bfe1083afc10
+  - c498fe03e5c3baa439566cbcbcd36acd
+  - 99a61b650e667d24e9ed6ec1cbc72c96
+  - 599140c63e604654a8878a34525258e9
+  - 468bb77c6fa1ba941916562b2459ac54
+  - ddc622f2130420043a16d28151f75b0a
+  - cdc936736fe28f14db28a7e9f980c78c
+  - 9efa8b80eae9026419f693b67dfa8de0
+  - 4deef038bd1dbf747acc9d21dfdf88fe
+  - dedefe5974c34354f9a2cd80706a2d70
+  - 49a03894efcd0e148a25d0acdcb656bb
+  - 651db5d4918ad8e47b83089c55ba7242
+  - ce60d2dc15119b34eac086a19edcbee2
+  - 98b1c325028752a4f9641d1bb83e0d3f
+  - 8962b731c9065204d984fec2a048f3e7
+  - 59c8216cb9ce066418d8f1910a405d37
+  - 53934f1077d06924cb5d658de5f31a71
+  - 9a110c87831e21b4e90cbce062325499
+  - aa568fa307d912642b42e017f2c73709
+  - f39f5abf0ee8dd2419670c629aafc32a
+  - ae7a9eb314a4fa64d96a1ded90eef36b
+  - 9ff66878f50c5ae4eb89b1c47bcdf79d
+  - a54f3216da5f4c7428b899731c04ee6b
+  - 20758cb5dc9ba11478db55b8579dcf65
+  - 0cfe886fdaefac24fbc56b39082cb6e1
+  - 06169a7110a8f4545a0ce7d7fc5a04f9
+  - 6a7064952b8de764696f0c95d29a7fcd
+  - a2d77a5ec120766438eba8cd8b94eed4
+  - 43d79b3ef230ad04bb30cf505593438f
+  - 912ed20f3087e7140827ec6319c3d26e
+  - aadc19cdf19169e428335ad1be1fbff9
+  - 32e86d5e6f959cd4bbd795ddcb6c0708
+  - 986eac5800feed74bbbcf54f20805832
+  - be971d6499674704fad786ac5e8ede73
+  - dcfa18441b3d4674883943acda8fd913
+  - 2ca445e0b6dd02f4fac8533630d0d4c8
+  - b3b49ee101965494990c85a26ce1af76
+  - a854828ba95bdad46a177de7ce4a0590
+  - 3218f849866c97348a157dc2d66b15e3
+  - d648a3ceab069204f864199df9630f6d
+  - affa7ff82714bd94fbf6f6f355af70de
+  - 13561e06886b3694993880f979e057c9
+  - e8a354a6f0352ed4888468dac1eecc98
+  - f0f671c00dc464643a3fbf4892e1adaf
+  - 26f49a7a9dac580459e712694a1b5a20
+  - f73b2e5487636a040bee0d69e33f5fa0
+  - 2eff14e346b8ca3419c2e0684ce000e6
+  - 4fafbae06f740c24d94a301b748200e8
+  - ee409fa15dcd5574499421a984f650d5
+  - d8143a1521757774294f11a55011ec2b
+  - 651b8d1780d402a48a35d2cf4f0b88e0
+  - 72580aba5dbed4d4188ed4d1eae4704c
+  - e74d8c0a5110c9148810b2e7da5daa49
+  - d42bd8d668977844a9267b6ac5b58854
+  - 07231fdec0da02641b1398aebc90100b
+  - f652ed0333308aa46bbe851602b0fabf
+  - ea0529c4418bd2b488e140e4cd84f9ea
+  - 3a4986a3a85b80e42874e5ec40c0266e
+  - a99f115de45005147a2a65b7e7303b94
+  - 0bbf68cdcfc59594daeed92bcc0f6484
+  - 923feaba3c7d0ec488909346ed184b64
+  - 2d73e641d62f5f541ba6abcc68e5ca47
+  - 8afa4a4583bc2e849b8bee62da2ee2df
+  - ff5b5cf9d3a9afa4cb9193a4c2413629
+  - 37a98cb64c32e6440aff6db702a41e7b
+  - 6e18a7642e22f414cb111c10a8708aaa
+  - 03129ed6c4810c24f865f71cb889470f
+  - aed28ef56b14fd94a98f7fe44c87e83d
+  - f9741999bfee5f54996f421d32e08626
+  - df58be0b416cfff44b217fe329c20caa
+  - 2c4cf87e3555423418cb949570b195e7
+  - e066beabc1f076a4c8ced0b2f8b5f714
+  - 7778e55802ac78f4bbb4bb478cf123c8
+  - f304faf780eb6704eafbc93da05bbcbd
+  - b0717e2e5d74a7749ac3cc007efed4f6
+  - 5d74b11c7c7fd684488d5b9066d2e953
+  - e0b7f6994af9b7741af907d6fa44e708
+  - dc91e35eb07576b48aa701c38031639b
+  - 956edae34558f824297a14d4d502da80
+  - d7c07b9a79b01894fb06826dce5ff055
+  - ce6cccf6392032240b4210c5de36007b
+  - caf3310727e496d40947b2957ec9effa
+  - 97ecb65f993c8df42ab47ae45fed94e0
+  - a677cbdeacef72f44ba597b84c1907c5
+  - b9d445a9c9a882a408e207646b566856
+  - ae539817642de8245af58c963457b265
+  - d67aa24e04d7c0942aa61060878bd301
+  - 4d4707cf9464ec546b409795d3c4d053
+  - 94e074c9693339341a56d4c0c3d6defe
+  - e9e10692b852d564bbedc15805385353
+  - a3755e1ea5bf1f9469149108ac7ca852
+  - 8aee7ba6a6c1bc34a89d5a150f1573d5
+  - 01d1e0cc5b7c9ee49a39e823beb3298d
+  - cad9a27a964641340b340b8f98dd33ae
+  - f2397f32c4e77484884202121dca46a4
+  - 42e584b0864a9fe419321d302d06aa0c
+  - 6f1c7bde14cb2764090a51ddb634f010
+  - bfad91d52144fa34aba01f3284b31568
+  - 7e9f8c9bca8adcd40808907524a919b7
+  - faf24729828db924a97f1b2db5e0be31
+  - 2ec16c11260f99f4aa4a715527eda4e8
+  - 2ee58f3535561c84bbc568318c56c499
+  - 3c7d43359b187f143a453eb694178f6f
+  - 677e66dd87ffc614d9bae2b6d64c907a
+  - 43939193e6676844dad9f8757aaac795
+  - 1ae210a2e8d3ec547ac9edad9ca94944
+  - e615f814ee5126940a470c0394e84f1f
+  - cd6b2e9184dd76642b6ffd80f7c0b296
+  - ce7bdec72462ac04fa80f517803624da
+  - b8725b327b4db174c9e354305d9d8769
+  - 344f331dd470bd24fa5bc3074a20fa07
+  - b9b83d6b298eb5c4ba6ba23d8d810ab3
+  - 68d13ae007c2a5e4cbffa4da4b945349
+  - c00e7033c104f3844892d3ad5bf6053a
+  - 11a4d5b3119345d45ac92a40d18037f7
+  - f4070a36dd55b074e8e02da128263a52
+  - 1b14496f6cd5ea44994e27446878f176
+  - 12a5cda8c187c0a4c999894d2b1a2e8f
+  - a0a968741c16c9c4289f873baa27924c
+  - 13a0cbe143f7ddb469ea0616652da644
+  - 8804879cbee176d42bbc34182908cb1a
+  - 2b0d67e0f4753584eab9508fb0000b9e
+  - a0ba21a262989604c9e5f5b0689a5425
+  - a7bb6f3331e643c4891ffd01a1afdfeb
+  - ec5582a4b81120e468b4f5514705a21c
+  - 831aa6489d177684fb569c341b06ce26
+  - 0f01a9a942d4e2e45bb789aa25bf205e
+  - dee9964692f346d4098a161366275d92
+  - 77194ec20557ac749ba0f241273208ca
+  - d85a1d607b732794690a754a60fcd199
+  - b795935dce7fc11408774876e2741a25
+  - e8a720cb5d61053488e077dba368a444
+  - 01132b717181b5c4f85f8e629012056c
+  - e3c196dd29499404abb953ebe33c4030
+  - 55c6d289ba10a0e4898f4d8be331debc
+  - 9a7028218a9957240ae3774f8804b5ba
+  - 836c239198f288d46af5c9889ca40730
+  - 31a2def18be1b7b44ab638f180d3d3ff
+  - 0e7299e72f9266140858379112661a31
+  - a34ce01abc0f41044811f4b56fd84591
+  - 0985f6176d2d26047a971bd97bc70930
+  - 7b7fd82175b20e74c9edffaf1779a75f
+  - a0995ebe7df007c4d9d1dbf266f256fa
+  - c262f9396ea8ed847bb8d8187bdaa21b
+  - c77ac075f78bbc640a654335148a472a
+  - 927f7cf8f6e492649b2df2043c635fcf
+  - 2eecdd363e8265444997362e00765a6b
+  - 03e384136ca7ca64f8eda05dfdb91dd7
+  - 2bbb0e9d70e7b6f4ab2582ff6ef6c4f1
+  - a7db65454cb366046ae94d0e695ce5c4
+  - e42f11f72f7e22442b8fb262d7bc70dc
+  - 628e0016fa44f1a458d09d0fe4d50293
+  - d8185561feee6f5439a617b49c3f4410
+  - 0f34b2e9ee29b5745b47a4fcff221c76
+  - 4d7aa4f0078367446b3c574fbaeaa83a
+  - f992514516ca3c849962628274135c3e
+  - c1ea2e1562c97ca41a6f81c311567c49
+  - 40c2582a4eb1f904bab103ec91f605f7
+  - 35ccf25ddaf07634d8f25846a164c5a4
+  - b37d5feb95291d04eb8ec7452b05d8fd
+  - 80bcc57e691ba1c49835972be0219c2d
+  - 69da29bc694e535458d8122e90885a7e
+  - 018c87b958a06144d80e23b298665e11
+  - 4e3be9632bfa6ce42b525511e9c71206
+  - 38f2272d924ee0540a7f24281447a133
+  - 284c3dd92cbaa5e4188e107b512e6cda
+  - 7d19efd21f0099840bad397880841fc6
+  - 0c86ee8b73c34e9438982e6345d6a71a
+  - bd91ef170ef174d4696f6e0862121e28
+  - 21f33e81f58b0d24685185d465679abf
+  - 37f549b05f207be47b6468b76b2eb989
+  - d301357e276c39c4f97a8deb940afab9
+  - 90040c33fc47cbb49a53881fa65b6934
+  - b4ec2cd1ee9d40b41a62f42665a16ec4
+  - d3c9a602c958d074aaf514917881d973
+  - 5ed90e59c45d44046b342f3b301cec43
+  - 1b694a36c7621a047a336af8141f5a2e
+  - 81a9b9a133a30b94e81b8e7766fa3153
+  - b4345cb72c9fec74c92db45045bf9b3a
+  - 8552f5306dbaae445bd6b25b15ac2b37
+  - 88a7b66308bb0824db3db315d5f6be64
+  - 063fc5025cad09046b50b406fc6c2694
+  - ec304915e236562468b11fad7926c8d2
+  - 3d67dccda0b537b45bbd83aa10df731e
+  - 6ed54349ebf978e4780cdfea49b5c9a5
+  - 1ddc75f95c3184f4d9ceeaf7a54800f8
+  - 90418ed3042a7d24d8890a6944576a32
+  - 6e62667840a4d8e489c406e14007e453
+  - 355b9d71121fc564fb2c61eaa09096c5
+  - 25b6590d62c4c4444a366555de58a068
+  - 8381dd4c17b6f0845855c1638850cf44
+  - ed652da7c052cf74086a5122ee93e29a
+  - 2251374a80e8a1b4884721a21c418439
+  - b20929eab0fb02843832723b9f54efcc
+  - adca77dc0a20cf04f9fdd0c503853256
+  - 95139428a8d550e409cf325dc3d62271
+  - 7c4367120e931cd4d8bdbf55794f5d2e
+  - 33d32f4be3f7bb94ebdc5986a1164665
+  - 2e1ebe97b016cdc45a1d90250de19070
+  - 9083512204678d84e8a9d4d09ee2418c
+  - 19766470701a2f842b0987ed3cb21181
+  - 47872ce20a30aad4e84db69f6ef23805
+  - 471d12537f6dd7744b74d5f38f4f0607
+  - e5e8c35b50182394bb84cd4d0ad51644
+  - 38412224a8e5a1f408071cbb2ea2619e
+  - c6dc00bc4563f7946871f9156d56114d
+  - 88649f03b38e4bf4eaa43bf052c13c5e
+  - f5ed8c98454bb304da78c82ce61757fc
+  - 1c00b0cba31cd69479eddde16444cd4d
+  - ae055334846970a4d8bd2b0fdf093230
+  - 8b198deef5dc37348b885a8df0ac88fb
+  - dd60121fb3b7142449462624c9582810
+  - cbd74ae50ccfca742b226e1e40ffbe09
+  - 498d860c2859eee4c9c6d8a011a49e6a
+  - 9fc48225e35fff14882646ca82baf47b
+  - 5b46e5af276db6e44a733a411d60f799
+  - b56bc23c94f42654fa728792d23b7d7e
+  - d59e0727f9c5193439ffa2ffa3a3a2cb
+  - 733408330c3df5c409c981b6f8555b44
+  - 49b2dcf062e9f4540b70e36e1dd5d1dc
+  - 03aa977f22f73554280d83e05fc77dc1
+  - 465ef99f09b3b9b42b77e42b30ac63e2
+  - f8b51d0d3c1eaac48aa0ef27351cbda6
+  - 1443ef82a74f58c41949431ea48f224b
+  - b8dd719562b05bc4a98fc909b7e34df7
+  - 4737b4fc3e2b1b747bb1037aa7a4c466
+  - 14c6836f83b6b0e44baaebff75e72470
+  - 02f25990c781fad40b1ede3f5ff1e04b
+  - a36f1aa51a0bf2544a00ca2eb0a40ed8
+  - 55e504c980b1e9249b86087f4c4e08e8
+  - 9d9c553419941e043acd8d44b5476cae
+  - f144bb8877201774ca6ca3e6be59e861
+  - abda3fae44cec7943b215eb2ccab813c
+  - 77dad7eb497382448948b710172a81ae
+  - 361f1af79b8897b4db8e84bc85986c40
+  - da128ff750930cf429aaa8c903c64265
+  - d61eeb7a79a9e0f44bd8089b19a6d6f9
+  - ad96e28cac901434d8deac5f03ee8a52
+  - 0c97b911a659ef64abbd0481bdb1475b
+  - 5febf368dd214f449b5e647888696074
+  - c2306e6aa8772344e917f31449a631d1
+  - 34db5cbb721f6e1438c6d911385dfae2
+  - 4f76bc42bb2b5c64587a67c4d57a204c
+  - 2a6b26fcceeb21d4fb222e11d7084e9a
+  - d481df01f4c899243b5bb39c86253d6f
+  - b606b17f77dbb814b8199895c99dadaa
+  - 283de7029446668409d3aa0d04f32231
+  - 3c9d162b0affaa34ea88e7c6ec36d875
+  - 5a03cdc307fe68a45b7f12aa138099ae
+  - 42fc8e4c01743e444aae8032a0baa9c8
+  - 8b87b15edab71604fb984dd4fda6315e
+  - 2da6ce21376c71341bbe561207f5ccf8
+  - 4d7c252caa07e514c84d96e3bb339b0b
+  - 2a3307bf26d503745844591c0b076f0e
+  - 359b86dda0c0d864d95c6b4a8f15a6d2
+  - 74149636cecba6640b391db85d965533
+  - eeb62fe6381730844affd58f366bcdf5
+  - 273ba9cd0ea154d45a7ed55987d94a1f
+  - 060a78792a7f70f49a6e837b99de4e96
+  - 546adb34574a6614cb242d8eb0cbf294
+  - f9a93987e962aa9428a8ed39afa69937
+  - 9a726ca63b4cd3e4c8ca9e6074ba5342
+  - 4fee96873b7c78a46adc20132cbfa8be
+  - 06503cf989c48b14eaa35158872805db
+  - a0cfa0c45a231d34689428db578e1307
+  - 4707ea9efe36b674a9b806d6fd3065ca
+  - 13704645b1fd89c4d869bbbcf5eab8fd
+  - 84cdcecdfd9f1ad449fecfe1f9b662fb
+  - 23a868a1372467c4e922201a70ec0891
+  - ffacfa0dc56ea0b48932093efa47e963
+  - 37a78c1bc02b08f4082fc7ed339f2e8f
+  - 254e65bf1abb2a5499a5dcff8a0c2c49
+  - e4f644a131458364c8b8a1f7bb6869f3
+  - 7782f4b3d10b08844bd8fa0d6fa945e2
+  - fe064ed02d779a24c8ca62c2656b9d05
+  - 1ddb59a866d1d444f91cc6d93a306bd3
+  - 830bc0bef6073f244b28c624e27e2da8
+  - 194fe3b429c279b4e8537dac65ca78b9
+  - 4cfc5dbc70c5a004996a3b45770de7e3
+  - 664fd0ecb219aa743982fde1a6ed8e66
+  - 0dcedbe06afc8424d85d424541df2d1c
+  - de5bc7159ace2194da359406fc76eadf
+  - 68709d1719fac344e9446dc3dcae70b3
+  - 3c239fb29b29419428409245a3c0c3f9
+  - 21a5b6c00b80bdb4fb66004b85e1c140
+  - 86f50d895851be64f9f2a1cc70cdff0a
+  - 4906c0957c6f2844b9a176de6e527876
+  - 529c33e301c6b6d4584dc074039683e6
+  - 71f3ac0c4fcdf8846ad2f822fc35aedc
+  - 79a5e2443c88080408e27d3579aebc8c
+  - c7e7166caa4e4284ea479cdb0fbba10a
+  - e2125c9bb20e31e428ade05d7314a990
+  - 53afae54ef736a040bcfb25225fdda37
+  - e99d57f155ffc8840b4ac6b822d29b5e
+  - 0ad4a049a115d1941931bba6cdaab9b5
+  - ea6f0597aa186aa498e1ec5b8c8cf788
+  - 4cd1a7c61feebe94fa0f610b4a9bb4c4
+  - 7f9ae763e82c0a04ba9f7f06b52b070d
+  - f6b7a4ba6c77e4e41b63c4885c670500
+  - 67106996792381e4baf82df2cfaa1fbc
+  - 517fc6e1b78b3a242858abb809f8da5a
+  - 4b6d77a706053784c89f4824fd14dc3d
+  - 4d7018ac50a8bd44f9a2d691585fe145
+  - 27b9348ae0f74de408ef9096054a7861
+  - 60f7346041fa24c4d83b782af5c879ad
+  - 0be2c6c7f24596e47a79abe554cec807
+  - 3399fb8e2ef03c247856e5b6a93c5893
+  - e5f5e91dc5047a848be89180fa95f0f0
+  - 121c206ee11282d489cfbbe6ef650599
+  - 6a75270c7fbcecc49a9ec388df33e861
+  - 9660d40b48c5ff246ac8f35d073ca31e
+  - 8d4bebe2c50a9d247a24b39e1c2abc97
+  - a92d3d9371dbcf242a2955b3300f6769
+  - ae12da271d6466f428cb27bcfa806abe
+  - 4f2227d43ed3e5244825fc92ca95b6b7
+  - 64f51e6cf699d844fb38f4bd9bb10d8c
+  - 38e21556ba7c3174188bd205b826e1f1
+  - b8b2799a32719ee46bc4f2f17dcc9b13
+  - 71510bff29cb5b547a7f9bee31033dc7
+  - 24a5c5d34f2a6774591a75cb8665d10b
+  - 4c21bc4cd423e1445b1f26c7bda035fd
+  - 7a585d469a788274784910b9613ff03d
+  - b41ec21b4838de3448fd8feac0382057
+  - 50c316484e10c1b4fa99a7570c2e37ab
+  - dfb5248a513066d48bf81e91a4581d2a
+  - 94e1f7dd6aea8144c995f1a05470e3d1
+  - c6e38133d3b28534280fe73e9710b2c5
+  - 17350266e021c36429f36428fd22513d
+  - 27c96b31d5de75a4c99c43b8d0ae7abf
+  - 202a301b08b6ca1428655db6f58b0ec3
+  - 5353748c4150f554d91379a34504f78b
+  - 90971f5df7391f24a8621ead630ca81b
+  - 9c5ec6da898a9e84681dfae4cc0d4ea4
+  - 31140e7408fd4c341afe22412579d93c
+  - d9c51b2a68ded844b9a102c03a72798c
+  - 0ad660c167e61f44c8cd52fb19192973
+  - af019d57c1492434ca690bd7aa533960
+  - 5868a8b5daeaaf149956aa38fededfb7
+  - 312468f13417c1e4384e51156e587a8c
+  - 44791d8e297cfda498146cc62605bd1a
+  - 0989cc9c4b67413478f3b4dce7a391ab
+  - f7235e235a36c2641bd65447f52c49af
+  - 5c7b44033a6358045a3f6adc629cb470
+  - 16fd9d34db3ea694fa815fbf4d65dfbc
+  - 2d7a8c82369733b4ca040568e30513c2
+  - c72019c9bf2217c49ad221069a8ea11d
+  - 6e9eb4a1b3082cc4c953db6e0cc8dbb2
+  - 961f188854de8b043bba910a371cf854
+  - c83ba5c4b818f0a4691ff2c61a94b9d6
+  - 6b3d71ebf6b16d04faea26a1bd13f3eb
+  - 99bc85c3301f6c6409f6477a4346d223
+  - 7b23bf108e8a5af44b3e9c6f6b9ed3b5
+  - 72974a385ae551141a6065edd9daeca6
+  - 9b45a24fc264f7a419e41ba3d22a4158
+  - 23c53e27e4c71d241b902b90e7a26739
+  - d49a22c0baf41d94ebbd0670b278d144
+  - 90a0d461c5f0fe24994b5d223bc3e396
+  - 0c85bf1c7a05b474e9df622bcfa78b1c
+  - b54b34c45459b754bbaa497c6ef46e41
+  - 19bfda363b72fdf40aa816bca51ae452
+  - 1cf7beab1c863694a95f6ae29d374d7a
+  - 0d15392643907a949bdc2e58cece3a7a
+  - f2f1a0b0f8208cb4fae99ae5ba3b0ee9
+  - d6727570a93629e4bb4a5e6fced60061
+  - 6aeb405376e4abf48bda36cec36af6c4
+  - 2fea061eaa7353346bae3906237625f2
+  - b5546287405026e479026e68d4e62669
+  - 9fdc2475c9771214a9ec82b223715b82
+  processorInfos:
+  - {fileID: 114000011816633320}
+  - {fileID: 114000012339429820}
+  - {fileID: 114000010652943936}
+  - {fileID: 114000013754000604}
+  - {fileID: 114000012746552666}
+  - {fileID: 114000010204300804}
+  - {fileID: 114000011312631262}
+  - {fileID: 114000013953959942}
+  exportSettings:
+    fileName: Assets/Flipbooks/Flame03_16x4.exr
+    frameCount: 1
+    exportMode: 1
+    exportAlpha: 0
+    exportSeparateAlpha: 0
+    sRGB: 0
+    highDynamicRange: 1
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 0
+    lockedProcessor: 7
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &114000010204300804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Color Correction
+  Enabled: 1
+  Settings: {fileID: 114000010247104090}
+--- !u!114 &114000010247104090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ca7dec4216fca4f943c6c73a5f5819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Brightness: 2
+  Contrast: 1.18
+  Saturation: 1
+  AlphaCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.037037015
+      inSlope: 1.555556
+      outSlope: 1.555556
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.12403091
+      outSlope: 0.12403091
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114000010352589846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe7c5309b5be14584db469f32df97c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 0.62352943, g: 0.101960786, b: 0, a: 1}
+    key2: {r: 1, g: 0.79607844, b: 0.47058824, a: 0}
+    key3: {r: 0.99607843, g: 0.99607843, b: 0.99607843, a: 0}
+    key4: {r: 0.99607843, g: 0.99607843, b: 0.99607843, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 31140
+    ctime2: 54849
+    ctime3: 65452
+    ctime4: 65452
+    ctime5: 65535
+    ctime6: 65535
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  ColorSource: 0
+--- !u!114 &114000010495596168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ca7dec4216fca4f943c6c73a5f5819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Brightness: 2
+  Contrast: 1
+  Saturation: 1.12
+  AlphaCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114000010627377536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e0ec12414f668468843340c4ea49d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RemoveAlpha: 1
+  AlphaValue: 0
+--- !u!114 &114000010652943936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Fix Borders
+  Enabled: 1
+  Settings: {fileID: 114000013272447262}
+--- !u!114 &114000010715476508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Premultiply Alpha
+  Enabled: 1
+  Settings: {fileID: 114000012661197978}
+--- !u!114 &114000010738717700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba984ba4af4e5884b8c8e887abee8051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Width: 2048
+  Height: 1024
+--- !u!114 &114000010832979222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa620cc053ad857459f8451c2f9f2823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BWFilterTint: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &114000011312631262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Assemble Flipbook
+  Enabled: 1
+  Settings: {fileID: 114000012972437474}
+--- !u!114 &114000011816633320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Looping
+  Enabled: 1
+  Settings: {fileID: 114000013345137172}
+--- !u!114 &114000012217790002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Remap Color
+  Enabled: 1
+  Settings: {fileID: 114000010352589846}
+--- !u!114 &114000012242752922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Premultiply Alpha
+  Enabled: 0
+  Settings: {fileID: 114000010627377536}
+--- !u!114 &114000012339429820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Crop
+  Enabled: 1
+  Settings: {fileID: 114000012541862434}
+--- !u!114 &114000012541862434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd658e7a2564734aaef1a1eddf45e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Crop_Top: 41
+  Crop_Bottom: 0
+  Crop_Left: 0
+  Crop_Right: 0
+  AutoCropThreshold: 0.003
+--- !u!114 &114000012661197978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e0ec12414f668468843340c4ea49d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RemoveAlpha: 1
+  AlphaValue: 1
+--- !u!114 &114000012746552666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Alpha From RGB
+  Enabled: 1
+  Settings: {fileID: 114000010832979222}
+--- !u!114 &114000012972437474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 16
+  FlipbookNumV: 4
+  Mode: 0
+--- !u!114 &114000013272447262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524ca2e5a7796534ab1f8dc4bd20c436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FixFactors: {x: 0, y: 0, z: 0.341, w: 0.301}
+  FadeToColor: {r: 0, g: 0, b: 0, a: 1}
+  FadeToAlpha: 1
+  Exponent: 1.55
+--- !u!114 &114000013345137172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af546431c1df1e4cbb10dcd3b8c8e73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  syncFrame: 206
+  outputSequenceLength: 64
+--- !u!114 &114000013754000604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Color Correction
+  Enabled: 1
+  Settings: {fileID: 114000010495596168}
+--- !u!114 &114000013953959942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Resize
+  Enabled: 1
+  Settings: {fileID: 114000010738717700}
+--- !u!114 &114038251947460372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Retime
+  Enabled: 1
+  Settings: {fileID: 114532203934964026}
+--- !u!114 &114532203934964026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67121233fc1872a4e9b4d2c8f5fc6542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 479
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  outputSequenceLength: 25
+  useCurve: 1
