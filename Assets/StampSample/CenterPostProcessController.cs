@@ -147,13 +147,19 @@ public class CenterPostProcessController : MonoBehaviour
         // 同時にフェードアウト
         var fade = BuildFadeOutTween(_fadeTarget);
         if (fade != null) _sequence.Join(fade);
+        
+        // 開始時：フェード対象を表示して開始前パーティクルを非表示に
+        _sequence.OnStart(() =>
+        {
+            // アニメーション開始と同時に、開始前パーティクルを非表示にしてフェード対象を表示
+            if (_beforeParticle != null) _beforeParticle.SetActive(false);
+            if (_fadeTarget != null) _fadeTarget.SetActive(true);
+            PlayParticle(_afterParticle);
+        });
 
         // 完了後：パーティクルを切り替えて後続フローへ通知
         _sequence.OnComplete(() =>
         {
-            if (_fadeTarget != null) _fadeTarget.SetActive(false);
-            if (_beforeParticle != null) _beforeParticle.SetActive(false);
-            PlayParticle(_afterParticle);
             OnActivationComplete?.Invoke();
         });
     }
