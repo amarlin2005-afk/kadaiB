@@ -46,8 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8a4f62585af0a04a89c7fe17ebad435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParticleStamp
-  particles:
-  - {fileID: 4233545695393356109}
+  particle: {fileID: 4233545695393356109}
   stampArea: {fileID: 8150485164689779316}
 --- !u!1 &7250118328119587711
 GameObject:

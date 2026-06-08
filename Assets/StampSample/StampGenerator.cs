@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class StampGenerator : MonoBehaviour
@@ -11,6 +12,13 @@ public class StampGenerator : MonoBehaviour
 
     [SerializeField] private int maxStamps;
     [SerializeField] private float stampInterval;
+
+    [Header("スタンプ表示時のフェードイン")]
+    [Tooltip("フェードインにかかる時間 [秒]")]
+    [SerializeField] private float fadeInDuration = 0.5f;
+
+    [Tooltip("フェードインの補間カーブ")]
+    [SerializeField] private Ease fadeInEase = Ease.OutSine;
 
     public List<StampArea> stampPrefabs;
     public List<StampArea> activeStamps = new();
@@ -40,6 +48,9 @@ public class StampGenerator : MonoBehaviour
 
         var worldPos = new Vector3(pos.x, stampAreaA.position.y, pos.y);
         var newStamp = Instantiate(stampPrefabs[Random.Range(0, stampPrefabs.Count)], worldPos, Quaternion.identity, transform);
+
+        StampFade.FadeIn(newStamp.gameObject, fadeInDuration, fadeInEase);
+
         activeStamps.Add(newStamp);
     }
 }
