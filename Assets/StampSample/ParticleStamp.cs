@@ -1,18 +1,13 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 public class ParticleStamp : StampArea
 {
-    public List<ParticleSystem> particles;
+    public ParticleSystem particle;
     public GameObject stampArea;
     public override void OnEnter()
     {
-        foreach (var particle in particles)
-        { 
-            particle.Play();
-        }
+        particle.Play();
         stampArea.SetActive(false);
-        
         
         Destroy(gameObject,4);
     }
@@ -24,5 +19,6 @@ public class ParticleStamp : StampArea
     
     public override void OnExit()
     {
+        
     }
 }
