@@ -4914,7 +4914,7 @@ GameObject:
   - component: {fileID: 1090431526908790427}
   - component: {fileID: 7886526475322587367}
   m_Layer: 0
-  m_Name: stamp
+  m_Name: stamp 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
