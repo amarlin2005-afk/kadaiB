@@ -20,6 +20,11 @@ public class StampGenerator : MonoBehaviour
     [Tooltip("フェードインの補間カーブ")]
     [SerializeField] private Ease fadeInEase = Ease.OutSine;
 
+    [Header("Sound")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip sound1;
+    [SerializeField] private AudioClip sound2;
+
 
     public List<StampArea> stampPrefabs;
     public List<StampArea> activeStamps = new();
@@ -30,6 +35,18 @@ public class StampGenerator : MonoBehaviour
 
         if (activeStamps.Count < maxStamps)
             TryGenerateStamp();
+    }
+
+    private void PlayRandomSound()
+    {
+        if (audioSource == null) return;
+
+        AudioClip clip = Random.Range(0, 2) == 0
+            ? sound1
+            : sound2;
+
+        if (clip != null)
+           audioSource.PlayOneShot(clip);
     }
 
     private void TryGenerateStamp()
@@ -47,11 +64,26 @@ public class StampGenerator : MonoBehaviour
                 return;
         }
 
-        var worldPos = new Vector3(pos.x, stampAreaA.position.y, pos.y);
-        var newStamp = Instantiate(stampPrefabs[Random.Range(0, stampPrefabs.Count)], worldPos, Quaternion.identity, transform);
+        var worldPos = new Vector3(
+            pos.x,
+            stampAreaA.position.y,
+            pos.y
+        );
 
-        StampFade.FadeIn(newStamp.gameObject, fadeInDuration, fadeInEase);
+        var newStamp = Instantiate(
+            stampPrefabs[Random.Range(0, stampPrefabs.Count)],
+            worldPos,
+            Quaternion.identity,
+            transform);
+
+        StampFade.FadeIn(
+            newStamp.gameObject,
+            fadeInDuration,
+            fadeInEase);
 
         activeStamps.Add(newStamp);
+
+        // 効果音再生
+        PlayRandomSound();
     }
 }
