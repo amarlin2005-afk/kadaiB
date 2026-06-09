@@ -12,10 +12,16 @@ public class ParticleStamp : StampArea
 
     [Tooltip("フェードアウトの補間カーブ")]
     [SerializeField] private Ease fadeOutEase = Ease.InSine;
+    
+    [SerializeField] private AudioClip audioClip1;
+    [SerializeField] private AudioClip audioClip2;
 
     public override void OnEnter()
     {
         particle.Play();
+        
+        var audioClip = Random.Range(0, 2) == 0 ? audioClip1 : audioClip2;
+        if (audioClip != null)AudioSource.PlayClipAtPoint(audioClip, transform.position);
 
         // フェードアウトしてから非表示にする
         StampFade.FadeOut(stampArea, fadeOutDuration, fadeOutEase, () =>
