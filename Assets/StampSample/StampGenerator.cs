@@ -20,6 +20,7 @@ public class StampGenerator : MonoBehaviour
     [Tooltip("フェードインの補間カーブ")]
     [SerializeField] private Ease fadeInEase = Ease.OutSine;
 
+
     public List<StampArea> stampPrefabs;
     public List<StampArea> activeStamps = new();
 

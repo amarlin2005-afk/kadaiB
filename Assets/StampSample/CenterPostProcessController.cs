@@ -74,6 +74,7 @@ public class CenterPostProcessController : MonoBehaviour
     /// （スタンプ生成の開始フックとして使用する）
     /// </summary>
     public event Action OnActivationComplete;
+    public event Action OnPlayDialogue;
 
     /// <summary>
     /// 起動シーケンスが開始済みか（このフローは一度きり）。
@@ -180,6 +181,7 @@ public class CenterPostProcessController : MonoBehaviour
         _sequence.OnComplete(() =>
         {
             OnActivationComplete?.Invoke();
+            OnPlayDialogue?.Invoke();
         });
     }
 

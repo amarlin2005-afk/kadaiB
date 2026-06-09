@@ -286,9 +286,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     startSize:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 3
-      minScalar: 1
+      minScalar: 2
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -339,7 +339,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -392,7 +392,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -1448,8 +1448,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.34411553
         - serializedVersion: 3
-          time: 0.26748976
-          value: 0.79736865
+          time: 0.70744646
+          value: 0.9747864
           inSlope: 0.08631841
           outSlope: 0.08631841
           tangentMode: 0
@@ -1546,8 +1546,8 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     speedRange: {x: 0, y: 1}
-    tilesX: 4
-    tilesY: 5
+    tilesX: 5
+    tilesY: 4
     animationType: 0
     rowIndex: 0
     cycles: 1
@@ -4950,7 +4950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8a4f62585af0a04a89c7fe17ebad435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParticleStamp
-  particle: {fileID: 4233545695393356109}
+  particle: {fileID: 513477435417121719}
   stampArea: {fileID: 8150485164689779316}
   fadeOutDuration: 0.5
   fadeOutEase: 2

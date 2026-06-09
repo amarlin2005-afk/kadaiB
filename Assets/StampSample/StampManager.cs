@@ -1,5 +1,6 @@
 using UnityEngine;
-
+using System;
+using Cysharp.Threading.Tasks;
 /// <summary>
 /// スタンプ生成・判定の管理。
 ///
@@ -14,6 +15,7 @@ public class StampManager : MonoBehaviour
     [SerializeField] private StampHitDetecter stampHitDetecter;
     [SerializeField] private StampGenerator stampGenerator;
 
+    [SerializeField] private float waitForPlaySeconds = 1.0f;
     // 起動シーケンスが完了し、スタンプ生成を開始してよいか
     private bool _stampStarted;
 
@@ -29,9 +31,12 @@ public class StampManager : MonoBehaviour
             centerPostProcessController.OnActivationComplete -= StartStamping;
     }
 
-    private void StartStamping()
+    private async void StartStamping()
     {
+        Debug.Log("StartWaitng");
+        await UniTask.Delay(TimeSpan.FromSeconds(waitForPlaySeconds));
         _stampStarted = true;
+        Debug.Log("EndWating");
     }
 
     private void Update()
