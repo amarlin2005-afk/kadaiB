@@ -5,6 +5,7 @@ using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using InteractiveFloor;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 
 /// <summary>
 /// 作品の起動トリガー。
@@ -68,7 +69,8 @@ public class CenterPostProcessController : MonoBehaviour
 
     [Tooltip("補間カーブ")]
     [SerializeField] private Ease _ease = Ease.InOutSine;
-
+    
+    [SerializeField] private float _waitAfterAnimationSeconds = 3f;
     /// <summary>
     /// 中心に人が来て、PostProcessing のアニメーションが完了したときに呼ばれる。
     /// （スタンプ生成の開始フックとして使用する）
@@ -178,10 +180,11 @@ public class CenterPostProcessController : MonoBehaviour
         });
 
         // 完了後：パーティクルを切り替えて後続フローへ通知
-        _sequence.OnComplete(() =>
+        _sequence.OnComplete(async () =>
         {
-            OnActivationComplete?.Invoke();
             OnPlayDialogue?.Invoke();
+            await UniTask.Delay(TimeSpan.FromSeconds(_waitAfterAnimationSeconds));
+            OnActivationComplete?.Invoke();
         });
     }
 
