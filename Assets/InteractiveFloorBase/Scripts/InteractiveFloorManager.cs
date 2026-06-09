@@ -5,7 +5,9 @@ using UnityEngine;
 using Unity.Mathematics;
 using static Unity.Mathematics.math;
 using System.ComponentModel;
+#if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
 using Klak.Spout;
+#endif
 
 namespace InteractiveFloor
 {
@@ -41,7 +43,11 @@ namespace InteractiveFloor
         /// SpoutSenderの参照
         /// </summary>
         [SerializeField]
+#if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
         SpoutSender _spoutSenderRef = null;
+#else
+        UnityEngine.Object _spoutSenderRef = null;
+#endif
 
         /// <summary>
         /// ワールド空間でのエリアの範囲（X最小）
@@ -214,6 +220,7 @@ namespace InteractiveFloor
         /// </summary>
         void UpdateSpoutSender()
         {
+#if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
             if (_spoutSenderRef != null)
             {
                 if (EnableSpout)
@@ -228,6 +235,7 @@ namespace InteractiveFloor
                     _spoutSenderRef.enabled = false;
                 }
             }
+#endif
 
             if (_dummyCameraRef != null)
             {
