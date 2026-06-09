@@ -4954,6 +4954,8 @@ MonoBehaviour:
   stampArea: {fileID: 8150485164689779316}
   fadeOutDuration: 0.5
   fadeOutEase: 2
+  audioClip1: {fileID: 8300000, guid: c05e8c22e53fb0b41a0d1487acd163af, type: 3}
+  audioClip2: {fileID: 8300000, guid: 533a70b4b32c07645a8dcde271eca0d9, type: 3}
 --- !u!1 &7250118328119587711
 GameObject:
   m_ObjectHideFlags: 0

@@ -71,6 +71,12 @@ public class CenterPostProcessController : MonoBehaviour
     [SerializeField] private Ease _ease = Ease.InOutSine;
     
     [SerializeField] private float _waitAfterAnimationSeconds = 3f;
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip _afterSfx;
+
+
     /// <summary>
     /// 中心に人が来て、PostProcessing のアニメーションが完了したときに呼ばれる。
     /// （スタンプ生成の開始フックとして使用する）
@@ -176,6 +182,9 @@ public class CenterPostProcessController : MonoBehaviour
             foreach (var p in _afterParticles)
             {
                 PlayParticle(p);
+
+                if (_audioSource != null && _afterSfx != null)
+                _audioSource.PlayOneShot(_afterSfx);
             }
         });
 

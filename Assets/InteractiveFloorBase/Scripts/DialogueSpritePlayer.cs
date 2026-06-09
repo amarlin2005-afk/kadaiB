@@ -17,6 +17,10 @@ public class DialogueSpritePlayer : MonoBehaviour
     [Header("フェード時間")]
     [SerializeField] private float fadeDuration = 0.5f;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip changeSfx;
+
     [SerializeField] private CenterPostProcessController centerPostProcessController;
 
     private void OnEnable()
@@ -50,12 +54,20 @@ public class DialogueSpritePlayer : MonoBehaviour
             // スプライト切り替え
             dialogueRenderer.sprite = dialogueSprites[i];
 
+            // ★SE（最後だけ鳴らさない）
+            if (i != dialogueSprites.Count - 1)
+            {
+                if (audioSource != null && changeSfx != null)
+                {
+                    audioSource.PlayOneShot(changeSfx);
+                }
+            }
+
             // フェードイン
             dialogueRenderer.DOFade(1f, fadeDuration);
 
             // 表示時間
             float displayTime = 3f;
-
             if (i < displayTimes.Count)
                 displayTime = displayTimes[i];
 
@@ -65,7 +77,6 @@ public class DialogueSpritePlayer : MonoBehaviour
             if (i != dialogueSprites.Count - 1)
             {
                 dialogueRenderer.DOFade(0f, fadeDuration);
-
                 yield return new WaitForSeconds(fadeDuration);
             }
         }
