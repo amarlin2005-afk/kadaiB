@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using InteractiveFloor;
+using System.Collections.Generic;
 
 /// <summary>
 /// 作品の起動トリガー。
@@ -45,10 +46,10 @@ public class CenterPostProcessController : MonoBehaviour
 
     [Header("Particles")]
     [Tooltip("開始前に表示しておくパーティクル（完了後に非表示にする）")]
-    [SerializeField] private GameObject _beforeParticle;
+    [SerializeField] private List<GameObject> _beforeParticles = new();
 
     [Tooltip("アニメーション完了後に表示するパーティクル")]
-    [SerializeField] private GameObject _afterParticle;
+    [SerializeField] private List<GameObject> _afterParticles = new();
 
     [Header("Fade Out (アニメーションと同時)")]
     [Tooltip("アニメーション中にフェードアウトさせるゲームオブジェクト（Renderer のマテリアルアルファを操作）")]
@@ -102,8 +103,15 @@ public class CenterPostProcessController : MonoBehaviour
     private void Start()
     {
         // 初期表示状態：開始前パーティクルを表示、完了後パーティクルは非表示
-        if (_beforeParticle != null) _beforeParticle.SetActive(true);
-        if (_afterParticle != null) _afterParticle.SetActive(false);
+       foreach (var p in _beforeParticles)
+        {
+            if (p != null) p.SetActive(true);
+        }
+
+        foreach (var p in _afterParticles)
+        {
+            if (p != null) p.SetActive(false);
+        }
     }
 
     private void Update()
@@ -152,9 +160,20 @@ public class CenterPostProcessController : MonoBehaviour
         _sequence.OnStart(() =>
         {
             // アニメーション開始と同時に、開始前パーティクルを非表示にしてフェード対象を表示
-            if (_beforeParticle != null) _beforeParticle.SetActive(false);
-            if (_fadeTarget != null) _fadeTarget.SetActive(true);
-            PlayParticle(_afterParticle);
+            foreach (var p in _beforeParticles)
+            {
+                if (p != null) p.SetActive(false);
+            }
+
+            if (_fadeTarget != null)
+            {
+                _fadeTarget.SetActive(true);
+            }
+
+            foreach (var p in _afterParticles)
+            {
+                PlayParticle(p);
+            }
         });
 
         // 完了後：パーティクルを切り替えて後続フローへ通知
