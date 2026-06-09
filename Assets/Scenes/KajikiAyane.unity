@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e811c7201edc61c4e9b19a52f21c14c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StampManager
-  centerPostProcessController: {fileID: 1814232303}
+  centerPostProcessController: {fileID: 0}
   stampHitDetecter: {fileID: 1209649783}
   stampGenerator: {fileID: 880855127}
 --- !u!4 &23133944
@@ -9983,6 +9983,8 @@ MonoBehaviour:
   stampAreaB: {fileID: 1546451576}
   maxStamps: 5
   stampInterval: 1
+  fadeInDuration: 0.5
+  fadeInEase: 3
   stampPrefabs:
   - {fileID: 7886526475322587367, guid: 8478e379b913b354d8ae0f59869506e2, type: 3}
   - {fileID: 7886526475322587367, guid: e44e84a76435fd649b9cb45a03517256, type: 3}
@@ -10044,7 +10046,7 @@ PrefabInstance:
     - target: {fileID: 4910188453780198564, guid: d5bff10ff706fed418937ef2ca81feaa, type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 2133170414}
+      objectReference: {fileID: 1738936527}
     - target: {fileID: 6297605576093970500, guid: d5bff10ff706fed418937ef2ca81feaa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.28205
@@ -15447,6 +15449,43 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6297605576093970500, guid: d5bff10ff706fed418937ef2ca81feaa, type: 3}
   m_PrefabInstance: {fileID: 1053390931}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1738936527
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 6
+  m_Width: 1280
+  m_Height: 1280
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 92
+  m_ColorFormat: 8
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_UseDynamicScaleExplicit: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &1814232302
 GameObject:
   m_ObjectHideFlags: 0
@@ -15476,16 +15515,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 732a0e96128ee4b4daa75f67c834ba0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CenterPostProcessController
-  _sensorObjectManager: {fileID: 952664917}
-  _volume: {fileID: 1066830224}
-  _fieldCenter: {fileID: 1814232304}
+  _sensorObjectManager: {fileID: 0}
+  _volume: {fileID: 0}
+  _fieldCenter: {fileID: 0}
   _centerRadius: 1
-  _beforeParticle: {fileID: 706474331}
-  _afterParticle: {fileID: 1213382022}
-  _fadeTarget: {fileID: 2091701367}
+  _beforeParticle: {fileID: 0}
+  _afterParticle: {fileID: 0}
+  _fadeTarget: {fileID: 0}
   _targetVignetteIntensity: 0
   _targetPostExposure: 0
-  _duration: 3
+  _duration: 1
   _ease: 4
 --- !u!4 &1814232304
 Transform:
@@ -15593,43 +15632,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!84 &2133170414
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 6
-  m_Width: 1280
-  m_Height: 1280
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 92
-  m_ColorFormat: 8
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_UseDynamicScaleExplicit: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
