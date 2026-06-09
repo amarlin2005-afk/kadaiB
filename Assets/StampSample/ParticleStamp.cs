@@ -18,6 +18,8 @@ public class ParticleStamp : StampArea
 
     public override void OnEnter()
     {
+        
+        Debug.Log("ParticleStamp OnEnter");
         particle.Play();
         
         var audioClip = Random.Range(0, 2) == 0 ? audioClip1 : audioClip2;

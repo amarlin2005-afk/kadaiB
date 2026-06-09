@@ -20,11 +20,6 @@ public class StampGenerator : MonoBehaviour
     [Tooltip("フェードインの補間カーブ")]
     [SerializeField] private Ease fadeInEase = Ease.OutSine;
 
-    [Header("Sound")]
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioClip sound1;
-    [SerializeField] private AudioClip sound2;
-
 
     public List<StampArea> stampPrefabs;
     public List<StampArea> activeStamps = new();
@@ -35,18 +30,6 @@ public class StampGenerator : MonoBehaviour
 
         if (activeStamps.Count < maxStamps)
             TryGenerateStamp();
-    }
-
-    private void PlayRandomSound()
-    {
-        if (audioSource == null) return;
-
-        AudioClip clip = Random.Range(0, 2) == 0
-            ? sound1
-            : sound2;
-
-        if (clip != null)
-           audioSource.PlayOneShot(clip);
     }
 
     private void TryGenerateStamp()
@@ -83,7 +66,5 @@ public class StampGenerator : MonoBehaviour
 
         activeStamps.Add(newStamp);
 
-        // 効果音再生
-        PlayRandomSound();
     }
 }
